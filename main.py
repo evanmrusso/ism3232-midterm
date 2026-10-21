@@ -25,7 +25,7 @@ trainer_count = 0
 for order in orders:
     company = order["company"]
     seat_price = order["seat_price"]
-    seats = order["seats"]          
+    seats = order["seats"]
     education = order["education"]
     order_total = calculate_license_total(seat_price, seats, education)
     contract_review = needs_contract_review(order_total)
