@@ -6,7 +6,7 @@
 
 ## What This Program Does
 
-This program calculates license totals for Cloudstep Software, which sells its scheduling app by the seat. For each order, it applies the seat discount and the onboarding fee, and flags whether the order needs a contract review or gets a dedicated trainer. It then prints a report with one line per order, followed by a summary of the total, average and largest license, plus how many reviews and trainers are needed.
+This program calculates license totals for Cloudstep Software, which sells its scheduling app by the seat. For each order, it applies the seat discount and the onboarding fee, and flags whether the order needs a contract review or gets a dedicated trainer. It then displays a report with one line per order, followed by a summary of the total, average and largest license, plus how many reviews and trainers are needed.
 
 ## Business Rules
 
@@ -43,7 +43,7 @@ There are 20 tests in `tests/test_business_rules.py`. They cover all eight funct
 - `README.md`: this file, with instructions for running and testing the project
 - `business_rules.py`: the constants and eight functions that apply the business rules
 - `commands.md`: the terminal record of how the project was built and checked
-- `main.py`: the order list, and the code that prints the report
+- `main.py`: the order list, and the code that displays the report
 - `requirements.txt`: the packages needed to run and test the project
 - `tests/__init__.py`: an empty file that marks `tests` as a package so pytest can import `business_rules`
 - `tests/test_business_rules.py`: the 20 pytest tests for the business rules
